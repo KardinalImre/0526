@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lbAdatok" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="279,134,279,162"/>
+        <ListBox x:Name="lbAdatok" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="279,134,92,162" SelectionChanged="lbAdatok_SelectionChanged"/>
         <Button Content="Lekérdez" HorizontalAlignment="Left" Margin="115,296,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label x:Name="lbFilmAzon" Content="-" HorizontalAlignment="Left" Margin="117,88,0,0" VerticalAlignment="Top"/>
-        <Button Content="Módosít" HorizontalAlignment="Left" Margin="115,333,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="59,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="59,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb3" HorizontalAlignment="Left" Margin="59,185,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb4" HorizontalAlignment="Left" Margin="59,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb5" HorizontalAlignment="Left" Margin="59,254,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbFilmAzon" Content="-" HorizontalAlignment="Left" Margin="400,90,0,0" VerticalAlignment="Top"/>
+        <Button Content="Módosít" HorizontalAlignment="Left" Margin="115,333,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="59,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="59,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb3" HorizontalAlignment="Left" Margin="59,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb4" HorizontalAlignment="Left" Margin="59,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb5" HorizontalAlignment="Left" Margin="59,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
