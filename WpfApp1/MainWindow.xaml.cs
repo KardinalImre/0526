@@ -39,7 +39,7 @@ namespace WpfApp1
                     lbAdatok.Items.Add(olvaso["filmazon"].ToString()+";"+ olvaso["cim"].ToString()+";"+olvaso["ev"].ToString()+";"+olvaso["szines"].ToString()+";"+olvaso["mufaj"].ToString()+";"+olvaso["hossz"].ToString());
                 }
                 olvaso.Close();
-                kapcs.Close();
+                kapcs.Close();//
         }
 
         private void lbAdatok_SelectionChanged(object sender, SelectionChangedEventArgs e)
